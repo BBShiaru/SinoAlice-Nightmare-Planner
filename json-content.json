@@ -64,7 +64,7 @@ var js_nightmares_data =
             duration: '90', skill_name: 'For Whom The Bell Splashes (II)', skill_description: '55% UP for the effect of Water skills, 20% UP for Wind damage inflicted by enemies'
         },
         {
-            index: 13, img: 'https://sinoalice.game-db.tw/images/card/CardS2497.png', name: 'UFO SR', sp: '200', prep_time: '70', short_name: 'UFO',
+            index: 13, img: 'https://sinoalice.game-db.tw/images/card/CardS2496.png', name: 'UFO SR', sp: '200', prep_time: '70', short_name: 'UFO',
             duration: '80', skill_name: 'The Bell Sounds a Wildfire (I)', skill_description: '45% UP for the effect of Fire skills, 20% UP for Water damage inflicted by enemies'
         },
         {
