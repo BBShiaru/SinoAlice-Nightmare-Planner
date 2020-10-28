@@ -49,6 +49,13 @@ table.nm_sort:hover{
 td.nm{
     width:40%;
 }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
 
 /* .drog-move {
     transition: transform 1s;
