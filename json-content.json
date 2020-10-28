@@ -56,7 +56,7 @@ var js_nightmares_data =
             duration: '100', skill_name: 'Hindering Wail (III)', skill_description: 'Massively decreases the hit rate of Colosseum Aid skills by 2/3～1/2 times for all enemies. ※Effect ends early if two minutes or less remaining for Colosseum.'
         },
         {
-            index: 11, img: 'https://sinoalice.game-db.tw/images/card/CardS2975.png', name: 'Shadowlord', sp: '200', prep_time: '70', short_name: 'Shadowlord',
+            index: 11, img: 'https://sinoalice.game-db.tw/images/card/CardS2975.png', name: 'Shadowlord SR', sp: '200', prep_time: '70', short_name: 'Shadowlord',
             duration: '80', skill_name: 'For Whom The Bell Splashes (I)', skill_description: '45% UP for the effect of Water skills, 20% UP for Wind damage inflicted by enemies'
         },
         {
@@ -64,19 +64,23 @@ var js_nightmares_data =
             duration: '90', skill_name: 'For Whom The Bell Splashes (II)', skill_description: '55% UP for the effect of Water skills, 20% UP for Wind damage inflicted by enemies'
         },
         {
-            index: 13, img: 'https://sinoalice.game-db.tw/images/card/CardS2497.png', name: 'UFO', sp: '200', prep_time: '60', short_name: 'UFO',
+            index: 13, img: 'https://sinoalice.game-db.tw/images/card/CardS2497.png', name: 'UFO SR', sp: '200', prep_time: '70', short_name: 'UFO',
+            duration: '80', skill_name: 'The Bell Sounds a Wildfire (I)', skill_description: '45% UP for the effect of Fire skills, 20% UP for Water damage inflicted by enemies'
+        },
+        {
+            index: 14, img: 'https://sinoalice.game-db.tw/images/card/CardS2497.png', name: 'UFO', sp: '200', prep_time: '60', short_name: 'UFO',
             duration: '90', skill_name: 'The Bell Sounds a Wildfire (II)', skill_description: '55% UP for the effect of Fire skills, 20% UP for Water damage inflicted by enemies'
         },
         {
-            index: 14, img: 'https://sinoalice.game-db.tw/images/card/CardS0774.png', name: 'Ogre', short_name: 'Ogre', sp: '200', prep_time: '60',
+            index: 15, img: 'https://sinoalice.game-db.tw/images/card/CardS0774.png', name: 'Ogre', short_name: 'Ogre', sp: '200', prep_time: '60',
             duration: '120', skill_name: 'Defiant Roar (III)', skill_description: 'Massively increases the effect of attack skills for all front-line allies when at a disadvantage and when comboing. 45%UP'
         },
         {
-            index: 15, img: 'https://sinoalice.game-db.tw/images/card/CardS1126.png', name: 'One-Winged Doll, Blanc', sp: '0', prep_time: '60', short_name: 'Blanc',
+            index: 16, img: 'https://sinoalice.game-db.tw/images/card/CardS1126.png', name: 'One-Winged Doll, Blanc', sp: '0', prep_time: '60', short_name: 'Blanc',
             duration: '100', skill_name: 'World of Silence (III)', skill_description: 'Massively reduce the effectiveness of enemy Instrument skills. 40%DOWN'
         },
         {
-            index: 16, img: 'https://sinoalice.game-db.tw/images/card/CardS1258.png', name: 'Cake Spider', sp: '200', prep_time: '70', short_name: 'Cake Spider',
+            index: 17, img: 'https://sinoalice.game-db.tw/images/card/CardS1258.png', name: 'Cake Spider', sp: '200', prep_time: '70', short_name: 'Cake Spider',
             duration: '90', skill_name: 'World of Ignorance (II)', skill_description: 'Massively reduce the effectiveness of enemy Tome skills. 40%DOWN'
         }
         /*{
