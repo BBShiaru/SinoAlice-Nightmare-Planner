@@ -36,7 +36,7 @@
                 </tr>
                 <tr>
                     <td class="nm_des" style="height: 40px;">Skill name</td>
-                    <td class="nm_des" style="height: 40px;">effect</td>
+                    <td class="nm_des" style="height: 40px;">Effect</td>
                 </tr>
                 <tr>
                     <td class="nm_des">
@@ -72,7 +72,7 @@
     </div>
 	<div class="footer">
 	  <p>
-		Original nm planner done by yanxion</p>
+		&copy 2020 Original nm planner done by yanxion</p>
 	</div>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.js'></script>
     <script>
@@ -167,10 +167,11 @@
                 add_nm(img_index) {
                     var nm_flag = false;
                     for (var id in nm_sort.lists) {
-                        if (nm_sort.lists[id].index == img_index) {
+                        if (nm_sort.lists[id].index == img_index || nm_sort.lists[id].default_skill_name == data.nightmares_data[img_index].default_skill_name) {
                             nm_flag = true;
                         }
                         // console.log(nm_sort.lists[id].index + " : " + nm_sort.lists[id].name);
+                        <!-- console.log(nm_sort.lists[id].index + " : " + nm_sort.lists[id].default_skill_name); -->
                     }
                     if (!nm_flag && !nm_time_sort_flag) {
                         nm_sort.lists.push(
@@ -183,6 +184,7 @@
                                 duration: data.nightmares_data[img_index].duration,
                                 skill_name: data.nightmares_data[img_index].skill_name,
                                 skill_description: data.nightmares_data[img_index].skill_description,
+								default_skill_name: data.nightmares_data[img_index].default_skill_name,
                                 prep_start_time: "",
                                 prep_end_time: "",
                                 duration_start_time: "",
