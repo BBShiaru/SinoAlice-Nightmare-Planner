@@ -104,7 +104,7 @@ td.nm{
 
 /* The Close Button */
 .close {
-  color: white;
+  color: black;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -112,7 +112,7 @@ td.nm{
 
 .close:hover,
 .close:focus {
-  color: #000;
+  color: gray;
   text-decoration: none;
   cursor: pointer;
 }

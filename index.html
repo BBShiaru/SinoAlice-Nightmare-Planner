@@ -101,11 +101,11 @@
 		}
 
 		// When the user clicks anywhere outside of the modal, close it
-		window.onclick = function(event) {
+		window.addEventListener('click', function () {
 		  if (event.target == modal) {
 			modal.style.display = "none";
 		  }
-		}
+		});
 		
         var nm_time_sort_flag = false;
         let data = {
