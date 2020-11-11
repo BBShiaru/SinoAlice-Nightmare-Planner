@@ -70,12 +70,43 @@
         </transition-group>
         <!-- </div> -->
     </div>
+	<!-- The Modal -->
+	<div id="divModal" class="modal">
+	  <!-- Modal content -->
+	  <div class="modal-content">
+		<div class="modal-header">
+		<span class="close">&times;</span>
+			<h2>Error</h2>
+		</div>
+		<div class="modal-body">
+		  <p id='modalMessage'></p>
+		</div>
+	  </div>
+
+	</div>
 	<div class="footer">
 	  <p>
 		&copy 2020 Original nm planner done by yanxion</p>
 	</div>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.js'></script>
     <script>
+		var modal = document.getElementById("divModal");
+
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function() {
+		  modal.style.display = "none";
+		}
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+		  if (event.target == modal) {
+			modal.style.display = "none";
+		  }
+		}
+		
         var nm_time_sort_flag = false;
         let data = {
             des_index: 0,
@@ -166,14 +197,20 @@
                 // 新增夢魘到施放排序(右邊)的欄位裡
                 add_nm(img_index) {
                     var nm_flag = false;
+                    var same_nm_flag = false;
+                    var same_nm_flag_name = "";
                     for (var id in nm_sort.lists) {
-                        if (nm_sort.lists[id].index == img_index || nm_sort.lists[id].default_skill_name == data.nightmares_data[img_index].default_skill_name) {
+                        if (nm_sort.lists[id].index == img_index) {
                             nm_flag = true;
                         }
+						else if(nm_sort.lists[id].default_skill_name == data.nightmares_data[img_index].default_skill_name){
+							same_nm_flag = true;
+							same_nm_flag_name = nm_sort.lists[id].name;
+						}
                         // console.log(nm_sort.lists[id].index + " : " + nm_sort.lists[id].name);
                         <!-- console.log(nm_sort.lists[id].index + " : " + nm_sort.lists[id].default_skill_name); -->
                     }
-                    if (!nm_flag && !nm_time_sort_flag) {
+                    if (!nm_flag && !nm_time_sort_flag && !same_nm_flag) {
                         nm_sort.lists.push(
                             {
                                 index: img_index,
@@ -191,6 +228,18 @@
                                 duration_end_time: ""
                             });
                     }
+					if(nm_flag)
+					{
+						document.getElementById("modalMessage").innerHTML = "Nightmare has already been added.";
+						modal.style.display = "block";
+						<!-- alert("Nightmare has already been added."); -->
+					}
+					if(same_nm_flag)
+					{
+						document.getElementById("modalMessage").innerHTML = "There is already a nightmare with the same skill added. Name: " + same_nm_flag_name;
+						modal.style.display = "block";
+						<!-- alert("There is already a nightmare with the same skill added. Name: " + same_nm_flag_name); -->
+					}
                     nm_time_sort();
                 }
             }
