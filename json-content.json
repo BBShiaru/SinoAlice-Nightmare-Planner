@@ -1,4 +1,4 @@
-﻿var js_nightmares_data =
+var js_nightmares_data =
     [
         {
             index: 0, img: 'https://sinoalice.game-db.tw/images/card/CardS0458.png', name: 'Ugallu', short_name: 'Uga',
@@ -77,15 +77,15 @@
         },
         {
             index: 16, img: 'https://sinoalice.game-db.tw/images/card/CardS1126.png', name: 'One-Winged Doll, Blanc', sp: '0', prep_time: '60', short_name: 'Blanc',
-            duration: '100', skill_name: 'World of Silence (III)', skill_description: 'Massively reduce the effectiveness of enemy Instrument skills. 40%DOWN'
+            duration: '100', skill_name: 'World of Silence (III)', skill_description: 'Massively reduce the effectiveness of enemy Instrument skills. 45%DOWN'
         },
         {
             index: 17, img: 'https://sinoalice.game-db.tw/images/card/CardS1258.png', name: 'Cake Spider', sp: '200', prep_time: '70', short_name: 'Cake Spider',
-            duration: '90', skill_name: 'World of Ignorance (II)', skill_description: 'Massively reduce the effectiveness of enemy Instrument skills. 45%DOWN'
+            duration: '90', skill_name: 'World of Ignorance (II)', skill_description: 'Massively reduce the effectiveness of enemy Tome skills. 40%DOWN'
         },
         {
             index: 18, img: 'https://sinoalice.game-db.tw/images/card/CardS1417.png', name: 'Diabolos', short_name: 'Diabolos', sp: '0', prep_time: '60',
-            duration: '100', skill_name: 'World of Ignorance (III)', skill_description: 'Massively reduce the effectiveness of enemy Instrument skills. 45%DOWN'
+            duration: '100', skill_name: 'World of Ignorance (III)', skill_description: 'Massively reduce the effectiveness of enemy Tome skills. 45%DOWN'
         },
         {
             index: 19, img: 'https://sinoalice.game-db.tw/images/card/CardS1371.png', name: 'Mau Archelon', short_name: 'Archelon', sp: '0', prep_time: '60',
