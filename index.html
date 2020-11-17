@@ -11,9 +11,6 @@
 
 <body>
     <div class="frame">
-        <div id="nm_div" class="nm_div">
-            {{ nightmares_sort }}
-        </div>
         <div id="nightmares_img" class="nightmares_img">
             <img class="nm_img" v-for="item in data.nightmares_data" v-bind:src="item.img"
                 v-on:mouseover="change_nm_des(item.index)" v-on:click="add_nm(item.index)">
@@ -46,6 +43,9 @@
                         {{ nightmares_data[des_index].skill_description }}</td>
                 </tr>
             </table>
+        </div>
+        <div id="nm_div" class="nm_div">
+            {{ nightmares_sort }}
         </div>
     </div>
     <div class="frame">
