@@ -1,4 +1,4 @@
-﻿var js_nightmares_data =
+var js_nightmares_data =
     [
         {
             index: 0, img: 'https://sinoalice.game-db.tw/images/card/CardS0458.png', name: 'Ugallu', short_name: 'Uga',
@@ -90,12 +90,29 @@
         {
             index: 19, img: 'https://sinoalice.game-db.tw/images/card/CardS1371.png', name: 'Mau Archelon', short_name: 'Archelon', sp: '0', prep_time: '60',
             duration: '120', skill_name: 'Defiant Roar (III)', skill_description: 'Massively increases the effect of attack skills for all front-line allies when at a disadvantage and when comboing. 45%UP', default_skill_name: 'Defiant Roar'
-        }
-        /*{
-            index: 7, img: 'https://sinoalice.game-db.tw/images/card/CardS1451.png', name: 'Ouroboros', short_name: 'Ouroboros',
-            sp: '0', prep_time: '70',
-            duration: '0', skill_name: 'Armor Destruction (III)', skill_description: 'Massively lower physical attack for all front-line enemies, including KO\'ed ones.'
         },
+		{
+            index: 20, img: 'https://sinoalice.game-db.tw/images/card/CardS1451.png', name: 'Ouroboros', short_name: 'Ouroboros',
+            sp: '0', prep_time: '70',
+            duration: '0', skill_name: 'Smash the Fake Weapon (III)', skill_description: 'Massively lower physical attack for all front-line enemies, including KO\'ed ones. 28%DOWN', default_skill_name: 'Smash the Fake Weapon'
+        },
+        {
+            index: 21, img: 'https://sinoalice.game-db.tw/images/card/CardS1449.png', name: 'Mist Golem', sp: '200', prep_time: '70', short_name: 'Mist Golem',
+            duration: '90', skill_name: 'Rejecting the Slash (II)', skill_description: 'Massively reduce the effectiveness of enemy Blade and Hammer skills. 40%DOWN', default_skill_name: 'Rejecting the Slash'
+        },
+        {
+            index: 22, img: 'https://sinoalice.game-db.tw/images/card/CardS0556.png', name: 'Elza, the Ancient Priestess', sp: '0', prep_time: '50', short_name: 'Elza',
+            duration: '100', skill_name: 'Engulfing Shout (III)', skill_description: 'Massively reduce the effectiveness of enemy Fire attack skills. 40%DOWN. Effect ends when allies\' lifeforce is 1/2 or lower than enemy\'s lifeforce', default_skill_name: 'Engulfing Shout'
+        },
+        {
+            index: 23, img: 'https://sinoalice.game-db.tw/images/card/CardS0640.png', name: 'Digitalis, the Undertaker', sp: '0', prep_time: '50', short_name: 'Digitalis',
+            duration: '100', skill_name: 'Cry of the Damned (III)', skill_description: 'Massively reduce the effectiveness of enemy Water attack skills. 40%DOWN. Effect ends when allies\' lifeforce is 1/2 or lower than enemy\'s lifeforce', default_skill_name: 'Cry of the Damned'
+        },
+        {
+            index: 24, img: 'https://sinoalice.game-db.tw/images/card/CardS1052.png', name: 'Fara, Inferiority\'s Echo', sp: '0', prep_time: '50', short_name: 'Fara',
+            duration: '100', skill_name: 'Soothing Command (III)', skill_description: 'Massively reduce the effectiveness of enemy Wind attack skills. 40%DOWN. Effect ends when allies\' lifeforce is 1/2 or lower than enemy\'s lifeforce', default_skill_name: 'Soothing Command'
+        }
+        /*
 		{
             index: 9, img: 'https://sinoalice.game-db.tw/images/card/CardS1882.png', name: 'Ninetails of Rejection Ricone', sp: '0', prep_time: '50', short_name: 'Ricone',
             duration: '100', skill_name: 'The Bell Sounds a Wildfire (III)', skill_description: '60% UP for the effect of Fire skills, 20% UP for Water damage inflicted by enemies'
@@ -103,11 +120,6 @@
         {
             index: 11, img: 'https://sinoalice.game-db.tw/images/card/CardS1593.png', name: 'Juno, The Stygian Solitude', sp: '0', prep_time: '50', short_name: 'Juno',
             duration: '100', skill_name: 'For Whom The Bell Splashes (III)', skill_description: '60% UP for the effect of Water skills, 20% UP for Wind damage inflicted by enemies'
-        },
-        {
-            index: 14, img: 'https://sinoalice.game-db.tw/images/card/CardS1371.png', name: 'Mt. Archelon', short_name: 'Archelon',
-            sp: '0', prep_time: '60',
-            duration: '120', skill_name: 'Defiant Roar (III)', skill_description: 'Massively increases the effect of attack skills for all front-line allies when at a disadvantage and when comboing. 45%UP'
         },
         {
             index: 15, img: 'https://sinoalice.game-db.tw/images/card/CardS1316.png', name: 'Odio, Song of the Black Lily', short_name: 'Lily',
@@ -121,10 +133,6 @@
         {
             index: 17, img: 'https://sinoalice.game-db.tw/images/card/CardS1591.png', name: 'Armor Giant', sp: '0', prep_time: '60', short_name: 'Armor Giant',
             duration: '100', skill_name: '血界拒絕衝撃(Ⅲ)', skill_description: 'Massively reduce the effectiveness of enemy Ranged and Polearm. 40%DOWN'
-        },
-        {
-            index: 18, img: 'https://sinoalice.game-db.tw/images/card/CardS1417.png', name: 'Diabolos', sp: '0', prep_time: '60', short_name: 'Diabolos',
-            duration: '100', skill_name: 'World of Ignorance (III)', skill_description: 'Massively reduce the effectiveness of enemy Tome skills. 40%DOWN'
         },
         {
             index: 20, img: 'https://sinoalice.game-db.tw/images/card/CardS1892.png', name: 'Silver Tiger', sp: '0', prep_time: '50', short_name: 'Silver Tiger',
