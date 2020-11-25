@@ -111,6 +111,10 @@ var js_nightmares_data =
         {
             index: 24, img: 'https://sinoalice.game-db.tw/images/card/CardS1052.png', name: 'Fara, Inferiority\'s Echo', sp: '0', prep_time: '50', short_name: 'Fara',
             duration: '100', skill_name: 'Soothing Command (III)', skill_description: 'Massively reduce the effectiveness of enemy Wind attack skills. 40%DOWN. Effect ends when allies\' lifeforce is 1/2 or lower than enemy\'s lifeforce', default_skill_name: 'Soothing Command'
+        },
+        {
+            index: 25, img: 'https://sinoalice.game-db.tw/images/card/CardS1591.png', name: 'Armored Giant', sp: '0', prep_time: '60', short_name: 'Armored Giant',
+            duration: '100', skill_name: 'Rejecting the Charge(III)', skill_description: 'Massively reduce the effectiveness of enemy Ranged and Polearm. 45%DOWN'
         }
         /*
 		{
@@ -129,10 +133,6 @@ var js_nightmares_data =
         {
             index: 16, img: 'https://sinoalice.game-db.tw/images/card/CardS1441.png', name: 'Coco, Paw of Devotion', sp: '0', prep_time: '60', short_name: 'Coco',
             duration: '100', skill_name: '血界拒絕斬擊(Ⅲ)', skill_description: 'Massively reduce the effectiveness of enemy Blade and Hammer skills. 40%DOWN'
-        },
-        {
-            index: 17, img: 'https://sinoalice.game-db.tw/images/card/CardS1591.png', name: 'Armor Giant', sp: '0', prep_time: '60', short_name: 'Armor Giant',
-            duration: '100', skill_name: '血界拒絕衝撃(Ⅲ)', skill_description: 'Massively reduce the effectiveness of enemy Ranged and Polearm. 40%DOWN'
         },
         {
             index: 20, img: 'https://sinoalice.game-db.tw/images/card/CardS1892.png', name: 'Silver Tiger', sp: '0', prep_time: '50', short_name: 'Silver Tiger',
