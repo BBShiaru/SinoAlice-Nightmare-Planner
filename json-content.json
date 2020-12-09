@@ -114,7 +114,11 @@ var js_nightmares_data =
         },
         {
             index: 25, img: 'https://sinoalice.game-db.tw/images/card/CardS1591.png', name: 'Armored Giant', sp: '0', prep_time: '60', short_name: 'Armored Giant',
-            duration: '100', skill_name: 'Rejecting the Charge(III)', skill_description: 'Massively reduce the effectiveness of enemy Ranged and Polearm. 45%DOWN'
+            duration: '100', skill_name: 'Rejecting the Charge (III)', skill_description: 'Massively reduce the effectiveness of enemy Ranged and Polearm. 45%DOWN', default_skill_name: 'Rejecting the Charge'
+        },
+        {
+            index: 26, img: 'https://sinoalice.game-db.tw/images/card/CardS1316.png', name: 'Odio, Song of the Black Lily', short_name: 'Odio', sp: '0', prep_time: '60',
+            duration: '100', skill_name: 'World of Order (III)', skill_description: 'Massively reduce the effectiveness of enemy Staff skills. 45%DOWN', default_skill_name: 'World of Order'
         }
         /*
 		{
@@ -124,11 +128,6 @@ var js_nightmares_data =
         {
             index: 11, img: 'https://sinoalice.game-db.tw/images/card/CardS1593.png', name: 'Juno, The Stygian Solitude', sp: '0', prep_time: '50', short_name: 'Juno',
             duration: '100', skill_name: 'For Whom The Bell Splashes (III)', skill_description: '60% UP for the effect of Water skills, 20% UP for Wind damage inflicted by enemies'
-        },
-        {
-            index: 15, img: 'https://sinoalice.game-db.tw/images/card/CardS1316.png', name: 'Odio, Song of the Black Lily', short_name: 'Lily',
-            sp: '0', prep_time: '60',
-            duration: '100', skill_name: '血界ハ祈祷ヲ拒ム(参)', skill_description: 'Massively reduce the effectiveness of enemy Staff skills. 40%DOWN'
         },
         {
             index: 16, img: 'https://sinoalice.game-db.tw/images/card/CardS1441.png', name: 'Coco, Paw of Devotion', sp: '0', prep_time: '60', short_name: 'Coco',
