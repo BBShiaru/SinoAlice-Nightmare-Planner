@@ -119,6 +119,10 @@ var js_nightmares_data =
         {
             index: 26, img: 'https://sinoalice.game-db.tw/images/card/CardS1316.png', name: 'Odio, Song of the Black Lily', short_name: 'Odio', sp: '0', prep_time: '60',
             duration: '100', skill_name: 'World of Order (III)', skill_description: 'Massively reduce the effectiveness of enemy Staff skills. 45%DOWN', default_skill_name: 'World of Order'
+        },
+        {
+            index: 27, img: 'https://sinoalice.game-db.tw/images/card/CardS1593.png', name: 'Yuno, The Dark Loner', sp: '0', prep_time: '50', short_name: 'Yuno',
+            duration: '100', skill_name: 'For Whom The Bell Splashes (III)', skill_description: '60% UP for the effect of Water skills, 20% UP for Wind damage inflicted by enemies'
         }
         /*
 		{
