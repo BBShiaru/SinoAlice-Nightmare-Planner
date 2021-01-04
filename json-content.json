@@ -122,7 +122,11 @@ var js_nightmares_data =
         },
         {
             index: 27, img: 'https://sinoalice.game-db.tw/images/card/CardS1593.png', name: 'Yuno, The Dark Loner', sp: '0', prep_time: '50', short_name: 'Yuno',
-            duration: '100', skill_name: 'For Whom The Bell Splashes (III)', skill_description: '60% UP for the effect of Water skills, 20% UP for Wind damage inflicted by enemies'
+            duration: '100', skill_name: 'For Whom The Bell Splashes (III)', skill_description: '60% UP for the effect of Water skills, 20% UP for Wind damage inflicted by enemies', default_skill_name: 'For Whom The Bell Splashes'
+        },
+        {
+            index: 28, img: 'https://sinoalice.game-db.tw/images/card/CardS1441.png', name: 'Coco, The Canine Claw', sp: '0', prep_time: '60', short_name: 'Coco',
+            duration: '100', skill_name: 'Rejecting the Slash (III)', skill_description: 'Massively reduce the effectiveness of enemy Blade and Hammer skills. 40%DOWN', default_skill_name: 'Rejecting the Slash'
         }
         /*
 		{
