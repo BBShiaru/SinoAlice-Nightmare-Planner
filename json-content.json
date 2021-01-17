@@ -93,7 +93,7 @@ var js_nightmares_data =
         },
 		{
             index: 20, img: 'https://sinoalice.game-db.tw/images/card/CardS1451.png', name: 'Ouroboros', short_name: 'Ouroboros',
-            sp: '0', prep_time: '70',
+            sp: '0', prep_time: '40',
             duration: '0', skill_name: 'Smash the Fake Weapon (III)', skill_description: 'Massively lower physical attack for all front-line enemies, including KO\'ed ones. 28%DOWN', default_skill_name: 'Smash the Fake Weapon'
         },
         {
