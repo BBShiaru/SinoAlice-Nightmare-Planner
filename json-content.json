@@ -1,75 +1,75 @@
-var js_nightmares_data =
+﻿var js_nightmares_data =
     [
         {
             index: 0, img: 'https://sinoalice.game-db.tw/images/card/CardS0458.png', name: 'Ugallu', short_name: 'Uga',
             sp: '0', prep_time: '80',
-            duration: '120', skill_name: 'Combustive Blessing (III)', skill_description: 'Massively increases the effectiveness of Fire skills for all allies. 45％UP', default_skill_name: 'Combustive Blessing'
+            duration: '120', skill_name: 'Combustive Blessing (III)', skill_description: 'Massively increases the effectiveness of Fire skills for all allies. 45％UP', default_skill_name: 'Combustive Blessing', type: 'Affinity'
         },
         {
             index: 1, img: 'https://sinoalice.game-db.tw/images/card/CardS0517.png', name: 'Lindwyrm', short_name: 'Lind',
             sp: '0', prep_time: '80',
-            duration: '120', skill_name: 'Gale Blessing (III)', skill_description: 'Massively increases the effectiveness of Wind skills for all allies. 45%UP', default_skill_name: 'Gale Blessing'
+            duration: '120', skill_name: 'Gale Blessing (III)', skill_description: 'Massively increases the effectiveness of Wind skills for all allies. 45%UP', default_skill_name: 'Gale Blessing', type: 'Affinity'
         },
         {
             index: 2, img: 'https://sinoalice.game-db.tw/images/card/CardS0480.png', name: 'Freeze Golem', short_name: 'FG',
             sp: '0', prep_time: '80',
-            duration: '120', skill_name: 'Aqueous Blessing (III)', skill_description: 'Massively increases the effectiveness of Water skills for all allies. 45%UP', default_skill_name: 'Aqueous Blessing'
+            duration: '120', skill_name: 'Aqueous Blessing (III)', skill_description: 'Massively increases the effectiveness of Water skills for all allies. 45%UP', default_skill_name: 'Aqueous Blessing', type: 'Affinity'
         },
         {
             index: 3, img: 'https://sinoalice.game-db.tw/images/card/CardS0980.png', name: 'Apostle of the Black Arm, Mitra/Cecilia', short_name: 'Mithra/Cecillia',
             sp: '0', prep_time: '50',
-            duration: '0', skill_name: 'Victorious Melody (III)', skill_description: 'Massively raise attack (physical and magical) for all surviving allies. 23%UP', default_skill_name: 'Victorious Melody'
+            duration: '0', skill_name: 'Victorious Melody (III)', skill_description: 'Massively raise attack (physical and magical) for all surviving allies. 23%UP', default_skill_name: 'Victorious Melody', type: 'Buff'
         },
         {
             index: 4, img: 'https://sinoalice.game-db.tw/images/card/CardS1108.png', name: 'Library Wisp', short_name: 'Wisp',
             sp: '0', prep_time: '50',
-            duration: '0', skill_name: 'Blessed Armor (III)', skill_description: 'Massively raise defense (physical and magical) for all surviving allies. 32%UP', default_skill_name: 'Blessed Armor'
+            duration: '0', skill_name: 'Blessed Armor (III)', skill_description: 'Massively raise defense (physical and magical) for all surviving allies. 32%UP', default_skill_name: 'Blessed Armor', type: 'Buff'
         },
         {
             index: 5, img: 'https://sinoalice.game-db.tw/images/card/CardS1138.png', name: 'Hateful Bird', short_name: 'Bird',
             sp: '200', prep_time: '50',
-            duration: '0', skill_name: 'Begrudging Blade (III)', skill_description: 'Massively lower attack (physical and magical) for all enemies. 23%DOWN ', default_skill_name: 'Begrudging Blade'
+            duration: '0', skill_name: 'Begrudging Blade (III)', skill_description: 'Massively lower attack (physical and magical) for all enemies. 23%DOWN ', default_skill_name: 'Begrudging Blade', type: 'Debuff'
         },
         {
             index: 6, img: 'https://sinoalice.game-db.tw/images/card/CardS1573.png', name: 'Red Rose', short_name: 'RPoppy',
             sp: '0', prep_time: '50',
-            duration: '0', skill_name: 'Armor of Lamentation (III) ', skill_description: 'Massively lower defense (physical and magical) for all enemies. 32%DOWN ', default_skill_name: 'Armor of Lamentation'
+            duration: '0', skill_name: 'Armor of Lamentation (III) ', skill_description: 'Massively lower defense (physical and magical) for all enemies. 32%DOWN ', default_skill_name: 'Armor of Lamentation', type: 'Debuff'
         },
         {
             index: 7, img: 'https://sinoalice.game-db.tw/images/card/CardS0558.png', name: 'Eris, Avatar of Gluttony', short_name: 'Eris',
             sp: '0', prep_time: '60',
-            duration: '120', skill_name: 'Fairy King Magic (III))', skill_description: 'Massively reduce the SP cost of all skills by 70% for all allies. ', default_skill_name: 'Fairy King Magic'
+            duration: '120', skill_name: 'Fairy King Magic (III))', skill_description: 'Massively reduce the SP cost of all skills by 70% for all allies. ', default_skill_name: 'Fairy King Magic', type: 'SP'
         },
         {
             index: 8, img: 'https://sinoalice.game-db.tw/images/card/CardS1431.png', name: 'Dryas, the Aberrant Tree', short_name: 'Dryas',
             sp: '0', prep_time: '50',
-            duration: '100', skill_name: 'The Bell Sounds a Storm (III)', skill_description: '60% UP for the effect of Wind skills, 20% UP for Fire damage inflicted by enemies', default_skill_name: 'The Bell Sounds a Storm'
+            duration: '100', skill_name: 'The Bell Sounds a Storm (III)', skill_description: '60% UP for the effect of Wind skills, 20% UP for Fire damage inflicted by enemies', default_skill_name: 'The Bell Sounds a Storm', type: 'Affinity'
         },
         {
             index: 9, img: 'https://sinoalice.game-db.tw/images/card/CardS1048.png', name: 'Blue Poppy', short_name: 'BPoppy',
             sp: '0', prep_time: '80',
-            duration: '120', skill_name: 'Uplifting Chant (III)', skill_description: 'Massively increases the hit rate of Colosseum Aid skills for all allies by 1.5～2 times', default_skill_name: 'Uplifting Chant'
+            duration: '120', skill_name: 'Uplifting Chant (III)', skill_description: 'Massively increases the hit rate of Colosseum Aid skills for all allies by 1.5～2 times', default_skill_name: 'Uplifting Chant', type: 'Support Skill'
         },
         {
             index: 10, img: 'https://sinoalice.game-db.tw/images/card/CardS0744.png', name: 'Noin, Law of Sandstorms', short_name: 'Noin',
             sp: '0', prep_time: '50',
-            duration: '100', skill_name: 'Hindering Wail (III)', skill_description: 'Massively decreases the hit rate of Colosseum Aid skills by 2/3～1/2 times for all enemies. ※Effect ends early if two minutes or less remaining for Colosseum.', default_skill_name: 'Hindering Wail'
+            duration: '100', skill_name: 'Hindering Wail (III)', skill_description: 'Massively decreases the hit rate of Colosseum Aid skills by 2/3～1/2 times for all enemies. ※Effect ends early if two minutes or less remaining for Colosseum.', default_skill_name: 'Hindering Wail', type: 'Support Skill'
         },
         {
             index: 11, img: 'https://sinoalice.game-db.tw/images/card/CardS2975.png', name: 'Shadowlord SR', sp: '200', prep_time: '70', short_name: 'Shadowlord',
-            duration: '80', skill_name: 'For Whom The Bell Splashes (I)', skill_description: '45% UP for the effect of Water skills, 20% UP for Wind damage inflicted by enemies', default_skill_name: 'For Whom The Bell Splashes'
+            duration: '80', skill_name: 'For Whom The Bell Splashes (I)', skill_description: '45% UP for the effect of Water skills, 20% UP for Wind damage inflicted by enemies', default_skill_name: 'For Whom The Bell Splashes', type: 'Affinity'
         },
         {
             index: 12, img: 'https://sinoalice.game-db.tw/images/card/CardS2976.png', name: 'Shadowlord', sp: '200', prep_time: '60', short_name: 'Shadowlord',
-            duration: '90', skill_name: 'For Whom The Bell Splashes (II)', skill_description: '55% UP for the effect of Water skills, 20% UP for Wind damage inflicted by enemies', default_skill_name: 'For Whom The Bell Splashes'
+            duration: '90', skill_name: 'For Whom The Bell Splashes (II)', skill_description: '55% UP for the effect of Water skills, 20% UP for Wind damage inflicted by enemies', default_skill_name: 'For Whom The Bell Splashes', type: 'Affinity'
         },
         {
             index: 13, img: 'https://sinoalice.game-db.tw/images/card/CardS2496.png', name: 'UFO SR', sp: '200', prep_time: '70', short_name: 'UFO',
-            duration: '80', skill_name: 'The Bell Sounds a Wildfire (I)', skill_description: '45% UP for the effect of Fire skills, 20% UP for Water damage inflicted by enemies', default_skill_name: 'The Bell Sounds a Wildfire'
+            duration: '80', skill_name: 'The Bell Sounds a Wildfire (I)', skill_description: '45% UP for the effect of Fire skills, 20% UP for Water damage inflicted by enemies', default_skill_name: 'The Bell Sounds a Wildfire', type: 'Affinity'
         },
         {
             index: 14, img: 'https://sinoalice.game-db.tw/images/card/CardS2497.png', name: 'UFO', sp: '200', prep_time: '60', short_name: 'UFO',
-            duration: '90', skill_name: 'The Bell Sounds a Wildfire (II)', skill_description: '55% UP for the effect of Fire skills, 20% UP for Water damage inflicted by enemies', default_skill_name: 'The Bell Sounds a Wildfire'
+            duration: '90', skill_name: 'The Bell Sounds a Wildfire (II)', skill_description: '55% UP for the effect of Fire skills, 20% UP for Water damage inflicted by enemies', default_skill_name: 'The Bell Sounds a Wildfire', type: 'Affinity'
         },
         {
             index: 15, img: 'https://sinoalice.game-db.tw/images/card/CardS0774.png', name: 'Ogre', short_name: 'Ogre', sp: '200', prep_time: '60',
@@ -77,60 +77,68 @@ var js_nightmares_data =
         },
         {
             index: 16, img: 'https://sinoalice.game-db.tw/images/card/CardS1126.png', name: 'One-Winged Doll, Blanc', sp: '0', prep_time: '60', short_name: 'Blanc',
-            duration: '100', skill_name: 'World of Silence (III)', skill_description: 'Massively reduce the effectiveness of enemy Instrument skills. 45%DOWN', default_skill_name: 'World of Silence'
+            duration: '100', skill_name: 'World of Silence (III)', skill_description: 'Massively reduce the effectiveness of enemy Instrument skills. 45%DOWN', default_skill_name: 'World of Silence', type: 'Defensive'
         },
         {
             index: 17, img: 'https://sinoalice.game-db.tw/images/card/CardS1258.png', name: 'Cake Spider', sp: '200', prep_time: '70', short_name: 'Cake Spider',
-            duration: '90', skill_name: 'World of Ignorance (II)', skill_description: 'Massively reduce the effectiveness of enemy Tome skills. 40%DOWN', default_skill_name: 'World of Ignorance'
+            duration: '90', skill_name: 'World of Ignorance (II)', skill_description: 'Massively reduce the effectiveness of enemy Tome skills. 40%DOWN', default_skill_name: 'World of Ignorance', type: 'Defensive'
         },
         {
             index: 18, img: 'https://sinoalice.game-db.tw/images/card/CardS1417.png', name: 'Diabolos', short_name: 'Diabolos', sp: '0', prep_time: '60',
-            duration: '100', skill_name: 'World of Ignorance (III)', skill_description: 'Massively reduce the effectiveness of enemy Tome skills. 45%DOWN', default_skill_name: 'World of Ignorance'
+            duration: '100', skill_name: 'World of Ignorance (III)', skill_description: 'Massively reduce the effectiveness of enemy Tome skills. 45%DOWN', default_skill_name: 'World of Ignorance', type: 'Defensive'
         },
         {
             index: 19, img: 'https://sinoalice.game-db.tw/images/card/CardS1371.png', name: 'Mau Archelon', short_name: 'Archelon', sp: '0', prep_time: '60',
-            duration: '120', skill_name: 'Defiant Roar (III)', skill_description: 'Massively increases the effect of attack skills for all front-line allies when at a disadvantage and when comboing. 45%UP', default_skill_name: 'Defiant Roar'
+            duration: '120', skill_name: 'Defiant Roar (III)', skill_description: 'Massively increases the effect of attack skills for all front-line allies when at a disadvantage and when comboing. 45%UP', default_skill_name: 'Defiant Roar', type: 'Offensive'
         },
 		{
             index: 20, img: 'https://sinoalice.game-db.tw/images/card/CardS1451.png', name: 'Ouroboros', short_name: 'Ouroboros',
             sp: '0', prep_time: '40',
-            duration: '0', skill_name: 'Smash the Fake Weapon (III)', skill_description: 'Massively lower physical attack for all front-line enemies, including KO\'ed ones. 28%DOWN', default_skill_name: 'Smash the Fake Weapon'
+            duration: '0', skill_name: 'Smash the Fake Weapon (III)', skill_description: 'Massively lower physical attack for all front-line enemies, including KO\'ed ones. 28%DOWN', default_skill_name: 'Smash the Fake Weapon', type: 'Debuff'
         },
         {
             index: 21, img: 'https://sinoalice.game-db.tw/images/card/CardS1449.png', name: 'Mist Golem', sp: '200', prep_time: '70', short_name: 'Mist Golem',
-            duration: '90', skill_name: 'Rejecting the Slash (II)', skill_description: 'Massively reduce the effectiveness of enemy Blade and Hammer skills. 40%DOWN', default_skill_name: 'Rejecting the Slash'
+            duration: '90', skill_name: 'Rejecting the Slash (II)', skill_description: 'Massively reduce the effectiveness of enemy Blade and Hammer skills. 40%DOWN', default_skill_name: 'Rejecting the Slash', type: 'Defensive'
         },
         {
             index: 22, img: 'https://sinoalice.game-db.tw/images/card/CardS0556.png', name: 'Elza, the Ancient Priestess', sp: '0', prep_time: '50', short_name: 'Elza',
-            duration: '100', skill_name: 'Engulfing Shout (III)', skill_description: 'Massively reduce the effectiveness of enemy Fire attack skills. 40%DOWN. Effect ends when allies\' lifeforce is 1/2 or lower than enemy\'s lifeforce', default_skill_name: 'Engulfing Shout'
+            duration: '100', skill_name: 'Engulfing Shout (III)', skill_description: 'Massively reduce the effectiveness of enemy Fire attack skills. 40%DOWN. Effect ends when allies\' lifeforce is 1/2 or lower than enemy\'s lifeforce', default_skill_name: 'Engulfing Shout', type: 'Defensive'
         },
         {
             index: 23, img: 'https://sinoalice.game-db.tw/images/card/CardS0640.png', name: 'Digitalis, the Undertaker', sp: '0', prep_time: '50', short_name: 'Digitalis',
-            duration: '100', skill_name: 'Cry of the Damned (III)', skill_description: 'Massively reduce the effectiveness of enemy Water attack skills. 40%DOWN. Effect ends when allies\' lifeforce is 1/2 or lower than enemy\'s lifeforce', default_skill_name: 'Cry of the Damned'
+            duration: '100', skill_name: 'Cry of the Damned (III)', skill_description: 'Massively reduce the effectiveness of enemy Water attack skills. 40%DOWN. Effect ends when allies\' lifeforce is 1/2 or lower than enemy\'s lifeforce', default_skill_name: 'Cry of the Damned', type: 'Defensive'
         },
         {
             index: 24, img: 'https://sinoalice.game-db.tw/images/card/CardS1052.png', name: 'Fara, Inferiority\'s Echo', sp: '0', prep_time: '50', short_name: 'Fara',
-            duration: '100', skill_name: 'Soothing Command (III)', skill_description: 'Massively reduce the effectiveness of enemy Wind attack skills. 40%DOWN. Effect ends when allies\' lifeforce is 1/2 or lower than enemy\'s lifeforce', default_skill_name: 'Soothing Command'
+            duration: '100', skill_name: 'Soothing Command (III)', skill_description: 'Massively reduce the effectiveness of enemy Wind attack skills. 40%DOWN. Effect ends when allies\' lifeforce is 1/2 or lower than enemy\'s lifeforce', default_skill_name: 'Soothing Command', type: 'Defensive'
         },
         {
             index: 25, img: 'https://sinoalice.game-db.tw/images/card/CardS1591.png', name: 'Armored Giant', sp: '0', prep_time: '60', short_name: 'Armored Giant',
-            duration: '100', skill_name: 'Rejecting the Charge (III)', skill_description: 'Massively reduce the effectiveness of enemy Ranged and Polearm. 45%DOWN', default_skill_name: 'Rejecting the Charge'
+            duration: '100', skill_name: 'Rejecting the Charge (III)', skill_description: 'Massively reduce the effectiveness of enemy Ranged and Polearm. 45%DOWN', default_skill_name: 'Rejecting the Charge', type: 'Defensive'
         },
         {
             index: 26, img: 'https://sinoalice.game-db.tw/images/card/CardS1316.png', name: 'Odio, Song of the Black Lily', short_name: 'Odio', sp: '0', prep_time: '60',
-            duration: '100', skill_name: 'World of Order (III)', skill_description: 'Massively reduce the effectiveness of enemy Staff skills. 45%DOWN', default_skill_name: 'World of Order'
+            duration: '100', skill_name: 'World of Order (III)', skill_description: 'Massively reduce the effectiveness of enemy Staff skills. 45%DOWN', default_skill_name: 'World of Order', type: 'Defensive'
         },
         {
             index: 27, img: 'https://sinoalice.game-db.tw/images/card/CardS1593.png', name: 'Yuno, The Dark Loner', sp: '0', prep_time: '50', short_name: 'Yuno',
-            duration: '100', skill_name: 'For Whom The Bell Splashes (III)', skill_description: '60% UP for the effect of Water skills, 20% UP for Wind damage inflicted by enemies', default_skill_name: 'For Whom The Bell Splashes'
+            duration: '100', skill_name: 'For Whom The Bell Splashes (III)', skill_description: '60% UP for the effect of Water skills, 20% UP for Wind damage inflicted by enemies', default_skill_name: 'For Whom The Bell Splashes', type: 'Affinity'
         },
         {
             index: 28, img: 'https://sinoalice.game-db.tw/images/card/CardS1441.png', name: 'Coco, The Canine Claw', sp: '0', prep_time: '60', short_name: 'Coco',
-            duration: '100', skill_name: 'Rejecting the Slash (III)', skill_description: 'Massively reduce the effectiveness of enemy Blade and Hammer skills. 40%DOWN', default_skill_name: 'Rejecting the Slash'
+            duration: '100', skill_name: 'Rejecting the Slash (III)', skill_description: 'Massively reduce the effectiveness of enemy Blade and Hammer skills. 40%DOWN', default_skill_name: 'Rejecting the Slash', type: 'Defensive'
         },
         {
             index: 29, img: 'https://sinoalice.game-db.tw/images/card/CardS1595.png', name: 'Caucus Dodo', sp: '200sp', prep_time: '80', short_name: 'Dodo',
-            duration: '0', skill_name: 'Sacrifice of Truth (III)', skill_description: 'Greatly increase M.ATK of all surviving allies in the vanguard. 28%UP', default_skill_name: 'Sacrifice of Truth'
+            duration: '0', skill_name: 'Sacrifice of Truth (III)', skill_description: 'Greatly increase M.ATK of all surviving allies in the vanguard. 28%UP', default_skill_name: 'Sacrifice of Truth', type: 'Buff'
+        },
+        {
+            index: 30, img: 'https://sinoalice.game-db.tw/images/card/CardS1447.png', name: 'Surtr', sp: '0sp', prep_time: '70', short_name: 'Surtr',
+            duration: '0', skill_name: 'False Robustness (III)', skill_description: 'Massively increase P.DEF of all surviving allies in the vanguard. 28%UP', default_skill_name: 'False Robustness', type: 'Buff'
+        },
+        {
+            index: 31, img: 'https://sinoalice.game-db.tw/images/card/CardS1625.png', name: 'Crazed Dragon Levi', sp: '0sp', prep_time: '70', short_name: 'Levi',
+            duration: '0', skill_name: 'False Blade (III)', skill_description: 'Massively increase P.ATK of all surviving allies in the vanguard. 28%UP', default_skill_name: 'False Blade', type: 'Buff'
         }
         /*
 		{
