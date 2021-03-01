@@ -206,10 +206,10 @@
                     var same_nm_flag_name = "";
                     for (var id in nm_sort.lists) {
                         if (nm_sort.lists[id].index == img_index) {
-                            //nm_flag = true;
+                            nm_flag = true;
                         }
 						else if(nm_sort.lists[id].default_skill_name == data.nightmares_data[img_index].default_skill_name){
-							//same_nm_flag = true;
+							same_nm_flag = true;
 							same_nm_flag_name = nm_sort.lists[id].name;
 						}
                         // console.log(nm_sort.lists[id].index + " : " + nm_sort.lists[id].name);
@@ -233,18 +233,18 @@
                                 duration_end_time: ""
                             });
                     }
-					// if(nm_flag)
-					// {
-					// 	document.getElementById("modalMessage").innerHTML = "Nightmare has already been added.";
-					// 	modal.style.display = "block";
-					// 	<!-- alert("Nightmare has already been added."); -->
-					// }
-					// if(same_nm_flag)
-					// {
-					// 	document.getElementById("modalMessage").innerHTML = "There is already a nightmare with the same skill added. Name: " + same_nm_flag_name;
-					// 	modal.style.display = "block";
-					// 	<!-- alert("There is already a nightmare with the same skill added. Name: " + same_nm_flag_name); -->
-					// }
+					if(nm_flag)
+					{
+						document.getElementById("modalMessage").innerHTML = "Nightmare has already been added.";
+						modal.style.display = "block";
+						<!-- alert("Nightmare has already been added."); -->
+					}
+					if(same_nm_flag)
+					{
+						document.getElementById("modalMessage").innerHTML = "There is already a nightmare with the same skill added. Name: " + same_nm_flag_name;
+						modal.style.display = "block";
+						<!-- alert("There is already a nightmare with the same skill added. Name: " + same_nm_flag_name); -->
+					}
                     nm_time_sort();
                 }
             }
