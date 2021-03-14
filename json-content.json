@@ -73,7 +73,7 @@ var js_nightmares_data =
         },
         {
             index: 15, img: 'https://sinoalice.game-db.tw/images/card/CardS0774.png', name: 'Ogre', short_name: 'Ogre', sp: '200', prep_time: '60',
-            duration: '120', skill_name: 'Defiant Roar (III)', skill_description: 'Massively increases the effect of attack skills for all front-line allies when at a disadvantage and when comboing. 45%UP', default_skill_name: 'Defiant Roar'
+            duration: '120', skill_name: 'Defiant Roar (III)', skill_description: 'Massively increases the effect of attack skills for all front-line allies when at a disadvantage and when comboing. 45%UP', default_skill_name: 'Defiant Roar', type: 'Offensive'
         },
         {
             index: 16, img: 'https://sinoalice.game-db.tw/images/card/CardS1126.png', name: 'One-Winged Doll, Blanc', sp: '0', prep_time: '60', short_name: 'Blanc',
@@ -139,6 +139,10 @@ var js_nightmares_data =
         {
             index: 31, img: 'https://sinoalice.game-db.tw/images/card/CardS1625.png', name: 'Crazed Dragon Levi', sp: '0sp', prep_time: '70', short_name: 'Levi',
             duration: '0', skill_name: 'False Blade (III)', skill_description: 'Massively increase P.ATK of all surviving allies in the vanguard. 28%UP', default_skill_name: 'False Blade', type: 'Buff'
+        },
+        {
+            index: 32, img: 'https://sinoalice.game-db.tw/images/card/CardS1499.png', name: 'Fear, the Prison Guard', sp: '200sp', prep_time: '40', short_name: 'Fear',
+            duration: '0', skill_name: 'Magic Order (III)', skill_description: 'Restore 35% of max SP for all allies with vanguard/attack jobs.', default_skill_name: 'Magic Order', type: 'SP'
         }
         /*
 		{
