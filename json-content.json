@@ -141,7 +141,11 @@ var js_nightmares_data =
             duration: '0', skill_name: 'False Blade (III)', skill_description: 'Massively increase P.ATK of all surviving allies in the vanguard. 28%UP', default_skill_name: 'False Blade', type: 'Buff'
         },
         {
-            index: 32, img: 'https://sinoalice.game-db.tw/images/card/CardS1499.png', name: 'Fear, the Prison Guard', sp: '200sp', prep_time: '40', short_name: 'Fear',
+            index: 32, img: 'https://sinoalice.game-db.tw/images/card/CardS1882.png', name: 'Rikone, Nine-tailed Rejection', sp: '0sp', prep_time: '50', short_name: 'Rico',
+            duration: '100', skill_name: 'The Bell Sounds a Wildfire (III)', skill_description: 'Massively increases the effect of Fire skills, while increasing the Water damage inflicted by enemies.（60% UP）', default_skill_name: 'he Bell Sounds a Wildfire', type: 'Affinity'
+        },
+        {
+            index: 33, img: 'https://sinoalice.game-db.tw/images/card/CardS1499.png', name: 'Fear, the Prison Guard', sp: '200sp', prep_time: '40', short_name: 'Fear',
             duration: '0', skill_name: 'Magic Order (III)', skill_description: 'Restore 35% of max SP for all allies with vanguard/attack jobs.', default_skill_name: 'Magic Order', type: 'SP'
         }
         /*
